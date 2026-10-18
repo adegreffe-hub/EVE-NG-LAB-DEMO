@@ -1,0 +1,538 @@
+configsets:
+  default:
+    n_1: configs/default/n_1.cfg
+    n_2: configs/default/n_2.cfg
+    n_3: configs/default/n_3.cfg
+    n_4: configs/default/n_4.cfg
+    n_5: configs/default/n_5.cfg
+    n_6: configs/default/n_6.cfg
+    n_7: configs/default/n_7.cfg
+    n_8: configs/default/n_8.cfg
+    n_9: configs/default/n_9.cfg
+    n_10: configs/default/n_10.cfg
+    n_11: configs/default/n_11.cfg
+    n_12: configs/default/n_12.cfg
+    n_13: configs/default/n_13.cfg
+    n_14: configs/default/n_14.cfg
+    n_15: configs/default/n_15.cfg
+    n_16: configs/default/n_16.cfg
+    n_17: configs/default/n_17.cfg
+    n_18: configs/default/n_18.cfg
+    n_19: configs/default/n_19.cfg
+    n_20: configs/default/n_20.cfg
+    n_21: configs/default/n_21.cfg
+    n_22: configs/default/n_22.cfg
+    n_23: configs/default/n_23.cfg
+    n_24: configs/default/n_24.cfg
+    n_25: configs/default/n_25.cfg
+    n_26: configs/default/n_26.cfg
+    n_27: configs/default/n_27.cfg
+    n_28: configs/default/n_28.cfg
+    n_29: configs/default/n_29.cfg
+    n_30: configs/default/n_30.cfg
+    n_31: configs/default/n_31.cfg
+    n_34: configs/default/n_34.cfg
+    n_35: configs/default/n_35.cfg
+links:
+  - endpoints:
+      - interface: ethernet-1/1
+        node: n_1
+      - interface: ethernet-1/1
+        node: n_3
+  - endpoints:
+      - interface: ethernet-1/1
+        node: n_2
+      - interface: ethernet-1/2
+        node: n_3
+  - endpoints:
+      - interface: ethernet-1/2
+        node: n_1
+      - interface: ethernet-1/1
+        node: n_4
+  - endpoints:
+      - interface: ethernet-1/2
+        node: n_2
+      - interface: ethernet-1/2
+        node: n_4
+  - endpoints:
+      - interface: ethernet-1/3
+        node: n_1
+      - interface: ethernet-1/1
+        node: n_5
+  - endpoints:
+      - interface: ethernet-1/3
+        node: n_2
+      - interface: ethernet-1/2
+        node: n_5
+  - endpoints:
+      - interface: ethernet-1/4
+        node: n_1
+      - interface: ethernet-1/1
+        node: n_6
+  - endpoints:
+      - interface: ethernet-1/4
+        node: n_2
+      - interface: ethernet-1/2
+        node: n_6
+  - endpoints:
+      - interface: ethernet-1/5
+        node: n_1
+      - interface: ethernet-1/1
+        node: n_7
+  - endpoints:
+      - interface: ethernet-1/5
+        node: n_2
+      - interface: ethernet-1/2
+        node: n_7
+  - endpoints:
+      - interface: ethernet-1/3
+        node: n_3
+      - interface: eth0
+        node: n_9
+  - endpoints:
+      - interface: ethernet-1/4
+        node: n_3
+      - interface: eth0
+        node: n_10
+  - endpoints:
+      - interface: ethernet-1/3
+        node: n_4
+      - interface: eth0
+        node: n_11
+  - endpoints:
+      - interface: ethernet-1/4
+        node: n_4
+      - interface: eth0
+        node: n_12
+  - endpoints:
+      - interface: ethernet-1/3
+        node: n_5
+      - interface: eth0
+        node: n_13
+  - endpoints:
+      - interface: ethernet-1/4
+        node: n_5
+      - interface: eth0
+        node: n_14
+  - endpoints:
+      - interface: ethernet-1/3
+        node: n_6
+      - interface: eth0
+        node: n_15
+  - endpoints:
+      - interface: ethernet-1/4
+        node: n_6
+      - interface: eth0
+        node: n_16
+  - endpoints:
+      - interface: ethernet-1/1
+        node: n_17
+      - interface: ethernet-1/1
+        node: n_19
+  - endpoints:
+      - interface: ethernet-1/1
+        node: n_18
+      - interface: ethernet-1/2
+        node: n_19
+  - endpoints:
+      - interface: ethernet-1/2
+        node: n_17
+      - interface: ethernet-1/1
+        node: n_20
+  - endpoints:
+      - interface: ethernet-1/2
+        node: n_18
+      - interface: ethernet-1/2
+        node: n_20
+  - endpoints:
+      - interface: ethernet-1/3
+        node: n_17
+      - interface: ethernet-1/1
+        node: n_21
+  - endpoints:
+      - interface: ethernet-1/3
+        node: n_18
+      - interface: ethernet-1/2
+        node: n_21
+  - endpoints:
+      - interface: ethernet-1/4
+        node: n_17
+      - interface: ethernet-1/1
+        node: n_22
+  - endpoints:
+      - interface: ethernet-1/4
+        node: n_18
+      - interface: ethernet-1/2
+        node: n_22
+  - endpoints:
+      - interface: ethernet-1/5
+        node: n_17
+      - interface: ethernet-1/1
+        node: n_23
+  - endpoints:
+      - interface: ethernet-1/5
+        node: n_18
+      - interface: ethernet-1/2
+        node: n_23
+  - endpoints:
+      - interface: ethernet-1/3
+        node: n_19
+      - interface: eth0
+        node: n_24
+  - endpoints:
+      - interface: ethernet-1/4
+        node: n_19
+      - interface: eth0
+        node: n_25
+  - endpoints:
+      - interface: ethernet-1/3
+        node: n_20
+      - interface: eth0
+        node: n_26
+  - endpoints:
+      - interface: ethernet-1/4
+        node: n_20
+      - interface: eth0
+        node: n_27
+  - endpoints:
+      - interface: ethernet-1/3
+        node: n_21
+      - interface: eth0
+        node: n_28
+  - endpoints:
+      - interface: ethernet-1/4
+        node: n_21
+      - interface: eth0
+        node: n_29
+  - endpoints:
+      - interface: ethernet-1/3
+        node: n_22
+      - interface: eth0
+        node: n_30
+  - endpoints:
+      - interface: ethernet-1/4
+        node: n_22
+      - interface: eth0
+        node: n_31
+  - endpoints:
+      - interface: ge-0/0/0
+        node: n_34
+      - interface: ethernet-1/3
+        node: n_7
+  - endpoints:
+      - interface: ge-0/0/1
+        node: n_34
+      - interface: Ethernet1
+        node: n_8
+  - endpoints:
+      - interface: Ethernet2
+        node: n_8
+      - interface: ge-0/0/1
+        node: n_35
+  - endpoints:
+      - interface: ge-0/0/0
+        node: n_35
+      - interface: ethernet-1/3
+        node: n_23
+name: my-first-lab
+nodes:
+  n_1:
+    attributes:
+      ethernet: 8
+    configset: default
+    image: srlinux-ixr-d2l:latest
+    name: spine-a1
+    position:
+      x: 250
+      "y": 280
+    template: srlinux-ixr-d2l
+  n_2:
+    attributes:
+      ethernet: 8
+    configset: default
+    image: srlinux-ixr-d2l:latest
+    name: spine-a2
+    position:
+      x: 550
+      "y": 280
+    template: srlinux-ixr-d2l
+  n_3:
+    attributes:
+      ethernet: 8
+    configset: default
+    image: srlinux-ixr-d2l:latest
+    name: leaf-a1
+    position:
+      x: 100
+      "y": 480
+    template: srlinux-ixr-d2l
+  n_4:
+    attributes:
+      ethernet: 8
+    configset: default
+    image: srlinux-ixr-d2l:latest
+    name: leaf-a2
+    position:
+      x: 300
+      "y": 480
+    template: srlinux-ixr-d2l
+  n_5:
+    attributes:
+      ethernet: 8
+    configset: default
+    image: srlinux-ixr-d2l:latest
+    name: leaf-a3
+    position:
+      x: 500
+      "y": 480
+    template: srlinux-ixr-d2l
+  n_6:
+    attributes:
+      ethernet: 8
+    configset: default
+    image: srlinux-ixr-d2l:latest
+    name: leaf-a4
+    position:
+      x: 700
+      "y": 480
+    template: srlinux-ixr-d2l
+  n_7:
+    attributes:
+      ethernet: 8
+    configset: default
+    image: srlinux-ixr-d2l:latest
+    name: ce-a
+    position:
+      x: 400
+      "y": 80
+    template: srlinux-ixr-d2l
+  n_8:
+    attributes:
+      ethernet: 4
+    configset: default
+    image: ceos-lab:4.35.1f
+    name: isp-p1
+    position:
+      x: 1000
+      "y": 0
+    template: ceos
+  n_9:
+    configset: default
+    name: pc-a1-1
+    position:
+      x: 55
+      "y": 680
+    template: vpcs
+  n_10:
+    configset: default
+    name: pc-a1-2
+    position:
+      x: 145
+      "y": 680
+    template: vpcs
+  n_11:
+    configset: default
+    name: pc-a2-1
+    position:
+      x: 255
+      "y": 680
+    template: vpcs
+  n_12:
+    configset: default
+    name: pc-a2-2
+    position:
+      x: 345
+      "y": 680
+    template: vpcs
+  n_13:
+    configset: default
+    name: pc-a3-1
+    position:
+      x: 455
+      "y": 680
+    template: vpcs
+  n_14:
+    configset: default
+    name: pc-a3-2
+    position:
+      x: 545
+      "y": 680
+    template: vpcs
+  n_15:
+    configset: default
+    name: pc-a4-1
+    position:
+      x: 655
+      "y": 680
+    template: vpcs
+  n_16:
+    configset: default
+    name: pc-a4-2
+    position:
+      x: 745
+      "y": 680
+    template: vpcs
+  n_17:
+    attributes:
+      ethernet: 8
+    configset: default
+    image: srlinux-ixr-d2l:latest
+    name: spine-b1
+    position:
+      x: 1450
+      "y": 280
+    template: srlinux-ixr-d2l
+  n_18:
+    attributes:
+      ethernet: 8
+    configset: default
+    image: srlinux-ixr-d2l:latest
+    name: spine-b2
+    position:
+      x: 1750
+      "y": 280
+    template: srlinux-ixr-d2l
+  n_19:
+    attributes:
+      ethernet: 8
+    configset: default
+    image: srlinux-ixr-d2l:latest
+    name: leaf-b1
+    position:
+      x: 1300
+      "y": 480
+    template: srlinux-ixr-d2l
+  n_20:
+    attributes:
+      ethernet: 8
+    configset: default
+    image: srlinux-ixr-d2l:latest
+    name: leaf-b2
+    position:
+      x: 1500
+      "y": 480
+    template: srlinux-ixr-d2l
+  n_21:
+    attributes:
+      ethernet: 8
+    configset: default
+    image: srlinux-ixr-d2l:latest
+    name: leaf-b3
+    position:
+      x: 1700
+      "y": 480
+    template: srlinux-ixr-d2l
+  n_22:
+    attributes:
+      ethernet: 8
+    configset: default
+    image: srlinux-ixr-d2l:latest
+    name: leaf-b4
+    position:
+      x: 1900
+      "y": 480
+    template: srlinux-ixr-d2l
+  n_23:
+    attributes:
+      ethernet: 8
+    configset: default
+    image: srlinux-ixr-d2l:latest
+    name: ce-b
+    position:
+      x: 1600
+      "y": 80
+    template: srlinux-ixr-d2l
+  n_24:
+    configset: default
+    name: pc-b1-1
+    position:
+      x: 1255
+      "y": 680
+    template: vpcs
+  n_25:
+    configset: default
+    name: pc-b1-2
+    position:
+      x: 1345
+      "y": 680
+    template: vpcs
+  n_26:
+    configset: default
+    name: pc-b2-1
+    position:
+      x: 1455
+      "y": 680
+    template: vpcs
+  n_27:
+    configset: default
+    name: pc-b2-2
+    position:
+      x: 1545
+      "y": 680
+    template: vpcs
+  n_28:
+    configset: default
+    name: pc-b3-1
+    position:
+      x: 1655
+      "y": 680
+    template: vpcs
+  n_29:
+    configset: default
+    name: pc-b3-2
+    position:
+      x: 1745
+      "y": 680
+    template: vpcs
+  n_30:
+    configset: default
+    name: pc-b4-1
+    position:
+      x: 1855
+      "y": 680
+    template: vpcs
+  n_31:
+    configset: default
+    name: pc-b4-2
+    position:
+      x: 1945
+      "y": 680
+    template: vpcs
+  n_34:
+    attributes:
+      cpu: 4
+      ethernet: 4
+      ram: 8192
+    configset: default
+    image: vjunosrouter-26.2R1.7
+    name: isp-pe1
+    position:
+      x: 750
+      "y": 80
+    template: vjunosrouter
+  n_35:
+    attributes:
+      cpu: 4
+      ethernet: 4
+      ram: 8192
+    configset: default
+    image: vjunosrouter-26.2R1.7
+    name: isp-pe2
+    position:
+      x: 1250
+      "y": 80
+    template: vjunosrouter
+traffic_filters:
+  filter_1:
+    color: '#00ff00'
+    enabled: 1
+    expr: icmp
+    timeout: 500
+    title: ICMP
+  filter_2:
+    color: '#ff8800'
+    enabled: 1
+    expr: mpls && (icmp || (mpls && icmp))
+    timeout: 500
+    title: ICMP in MPLS
+version: eve-iac/v1
